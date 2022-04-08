@@ -6,7 +6,7 @@
                 <div class="container-fluid">
                     <div class="row py-3">
                         <div class="col-2">
-                            <h6>logo</h6>
+                            <img :src="require(`../assets/img/logo.svg`)" alt="">
                         </div>
                         <div class="offset-2 col-8 d-flex justify-content-evenly align-items-center text-end">
                             <a class="text-uppercase text-decoration-none my-text-color fw-bold" href="#">Prova</a>

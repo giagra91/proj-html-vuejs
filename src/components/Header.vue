@@ -3,18 +3,20 @@
         <nav class="central-container d-flex justify-content-between align-items-center my-text-color">
             <p class="header-links m-0">
                 <font-awesome-icon icon="fa-solid fa-clock" />
-                Open Hours: Mon-Sat - 9:00 - 18:00
+                {{ openInfo }}
             </p>
-            <div class="nav-links d-flex justify-content-evenly">
-                <a href="#">numero</a>
-                <a href="#">mail</a>
-                <a href="#">fcbk</a>
-                <a href="#">twit</a>
-                <a href="#">ln</a>
+            <ul class="nav-links d-flex justify-content-evenly list-unstyled m-0">
+                <li v-for="(element, index) in headerLinks" :key="index">
+                    <a href="element.url">
+                        <span class="me-1">
+                            <font-awesome-icon :icon="element.icon" />
+                        </span>
+                        <span v-if="element.text">{{ element.text }}</span>
+                    </a>
+                </li>
 
-            </div>
+            </ul>
         </nav>
-        <!-- <img :src="require('../assets/img/logo-1.png')" alt=""> -->
     </header>
 </template>
 
@@ -23,10 +25,33 @@ export default {
     name: "HomeHeader",
     data: function(){
         return{
-            headerInfo:[
+            openInfo:"Open Hours: Mon-Sat - 9:00 - 18:00", 
+            headerLinks:[
                 {
-                    openInfo:"Open Hours: Mon-Sat - 9:00 - 18:00"
-                }
+                    icon:"fa-solid fa-phone",
+                    text:"1 (305) 12345678",
+                    url: "#"
+                },
+                {
+                    icon:"fa-solid fa-envelope",
+                    text:"hello@example.com",
+                    url: "#"
+                },
+                {
+                    icon:"fa-brands fa-facebook-f",
+                    text:"",
+                    url: "#"
+                },
+                {
+                    icon:"fa-brands fa-twitter",
+                    text:"",
+                    url: "#"
+                },
+                {
+                    icon:"fa-brands fa-linkedin-in",
+                    text:"",
+                    url: "#"
+                },
             ]
         }
     },
@@ -45,7 +70,7 @@ header{
         font-size: .8rem;
     }
     .nav-links{
-        width: 40%;
+        width: 50%;
     }
     
     a{

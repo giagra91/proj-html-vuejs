@@ -27,6 +27,10 @@
     background-color: $LightDargBG;
 }
 
+.my-bottom-footer-bg{
+    background-color: $BottomFooterColor;
+}
+
 .my-border-green{
     border: 1px solid $greenColor;
 }
@@ -37,4 +41,8 @@
 
 .my-text{
     font-size: .8rem;
+}
+
+.rounded-card{
+    border-radius: 10px
 }

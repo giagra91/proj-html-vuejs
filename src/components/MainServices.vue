@@ -76,8 +76,5 @@ div.main-services{
     min-height: 80vh;
 }
 
-.rounded-card{
-    border-radius: 10px
-}
 
 </style>
