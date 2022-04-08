@@ -3,6 +3,7 @@
 
 .central-container{
     width: 70%;
+    min-width: 1000px;
     height: 100%;
     padding: 0 .4rem;
     margin: 0 auto;
@@ -37,6 +38,14 @@
 
 .my-text-green{
     color:$greenColor
+}
+
+.my-button{
+    text-transform: uppercase;
+    color: white;
+    padding: .5rem 1rem;
+    border-radius: .3rem;
+    font-weight: bold;
 }
 
 .my-text{

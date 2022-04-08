@@ -14,7 +14,6 @@
                         <span v-if="element.text">{{ element.text }}</span>
                     </a>
                 </li>
-
             </ul>
         </nav>
     </header>
