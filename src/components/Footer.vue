@@ -1,6 +1,6 @@
 <template>
     <footer>
-        <div class="top-footer my-dark-bg mt-5 py-5">
+        <div class="top-footer my-dark-bg py-5">
             
             <div class="central-container">
                 <div class="row">

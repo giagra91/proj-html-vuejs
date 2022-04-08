@@ -43,12 +43,16 @@
         </div>
         <SocietyInfo />
         <MainServices />
+        <Logistics />
+        <SubsciptionForm />
     </div>
 </template>
 
 <script>
 import SocietyInfo from "./SocietyInfo.vue"
 import MainServices from "./MainServices.vue"
+import Logistics from "./Logistics.vue"
+import SubsciptionForm from "./SubsciptionForm.vue"
 
 
 export default {
@@ -56,6 +60,8 @@ export default {
     components:{
         SocietyInfo,
         MainServices,
+        SubsciptionForm,
+        Logistics
     },
     data: function(){
         return{
@@ -119,11 +125,21 @@ div.my-jumbo{
     background-color: blue;
     background-image: url("../assets/img/bg-9.jpg");
     background-size: cover;
-    // filter: brightness(.6);
-    backdrop-filter: brightness(.6);
+    position: relative;
+
+    &::before{
+    content: " ";
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 0;
+    }
 
     .central-container{
-        background-color: rgb(252, 208, 208);
+        position: relative;
     }
 
     .my-title{

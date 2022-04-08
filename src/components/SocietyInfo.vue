@@ -7,7 +7,9 @@
                         {{ element.topText }}
                     </span>
                     <h1 class="fw-bold my-3">
-                        <span class="px-3 py-2 my-bg-lightgreen my-text-green">{{ element.evidenceTitle }}</span> 
+                        <span class="px-3 py-2 my-bg-lightgreen my-text-green">
+                            {{ element.evidenceTitle }}
+                        </span> 
                         {{ element.normalTitle }}
                     </h1>
                     <p v-for="(text, index) in element.texts" :key="index + `text`"
