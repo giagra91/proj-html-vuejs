@@ -3,7 +3,9 @@
         <div class="central-container py-5">
             <div class="row">
                 <div class="col-8" v-for="(element,index) in jobInformations" :key="index + `job`">
-                    <span class="my-text fw-bold my-text-green text-uppercase">{{ element.topText }}</span>
+                    <span class="my-text fw-bold my-text-green text-uppercase">
+                        {{ element.topText }}
+                    </span>
                     <h1 class="fw-bold my-3">
                         <span class="px-3 py-2 my-bg-lightgreen my-text-green">{{ element.evidenceTitle }}</span> 
                         {{ element.normalTitle }}
