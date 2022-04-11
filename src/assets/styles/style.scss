@@ -8,8 +8,13 @@
     padding: 0 .4rem;
     margin: 0 auto;
 }
+
 .my-text-color{
     color:$TextColor
+}
+
+.my-light-text-color{
+    color:$LightTextColor;
 }
 
 .my-bg-green{

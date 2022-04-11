@@ -28,7 +28,7 @@
                         <div v-for="(element,index) in mainInfo" :key="index + `c`" class="py-5">
                         <p class="m-0 my-text-green text-uppercase fw-bold">{{ element.services }}</p>
                         <h1 class="text-uppercase my-title text-white">{{ element.title }}</h1>
-                        <p class="my-text-color">
+                        <p class="my-light-text-color">
                             {{ element.text }}
                         </p>
                         <div class="py-4">

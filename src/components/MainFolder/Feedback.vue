@@ -11,7 +11,7 @@
                         {{ evidenceTitle }}
                     </span>
                 </h1>
-                <p class="m-0 my-text my-text-color">
+                <p class="m-0 my-text my-light-text-color">
                     {{ feedbackText }}
                 </p>
             </div>
@@ -20,10 +20,10 @@
                 <div class="col-4" v-for="(feedback, index) in feedbackContents" :key="index + `feedback`">
                     <div class="my-text-color p-4 my-light-dark-bg rounded-card text-start">
                         <img class="w-50 my-logo-img mb-3" :src="feedback.img" alt="">
-                        <p class=" my-text my-text-color">
+                        <p class=" my-text my-light-text-color">
                             {{ feedback.topText }}
                         </p>
-                        <p class="my-text my-text-color">
+                        <p class="my-text my-light-text-color">
                             {{ feedback.bottomText }}
                         </p>
                     </div>

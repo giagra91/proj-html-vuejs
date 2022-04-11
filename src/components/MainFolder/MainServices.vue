@@ -10,7 +10,7 @@
                     </h1>
                 </div>
                 <div class="col-9 py-2">
-                    <p class="my-text my-text-color">{{ service.text }}</p>
+                    <p class="my-text my-light-text-color">{{ service.text }}</p>
                 </div>
                 <div class="col-3 py-2 text-end">
                     <a class="my-text text-uppercase text-white my-border-green ms-3 px-3 py-2 text-decoration-none rounded-3" :href="service.button.url">
@@ -29,7 +29,7 @@
                                 </span>
                             </div>
                             <h5 class="my-4 text-white fw-bold">{{ jobs.title }}</h5>
-                            <p class="my-text my-text-color">{{ jobs.text }}</p>
+                            <p class="my-text my-light-text-color">{{ jobs.text }}</p>
                         </div>
                     </div>
                 </div>
