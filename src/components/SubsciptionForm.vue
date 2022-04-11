@@ -29,7 +29,7 @@
                     <p class="my-text my-text-color">{{ element.bottomInfo }}</p>
                     <div class="mb-4">
                         <a :href="link.url" v-for="(link, index) in element.links" :key="index + `link`"
-                        class="my-2 my-text-green text-decoration-none d-flex">
+                        class="my-3 my-text-green text-decoration-none d-flex">
                             <span class="me-1 my-icon my-bg-lightgreen rounded-circle">
                                 <font-awesome-icon :icon="link.icon" />
                             </span>
