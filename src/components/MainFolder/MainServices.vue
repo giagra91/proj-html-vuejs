@@ -17,7 +17,7 @@
                         {{ service.button.text }}
                     </a>
                 </div>
-                <div class="row">
+                <div class="row pe-0">
                     <div class="col-4" v-for="(jobs, index) in ourServices" :key="index + `jobs`">
                         <div class="text-white py-4 px-4 my-light-dark-bg rounded-card">
                             <div class="d-flex justify-content-between">

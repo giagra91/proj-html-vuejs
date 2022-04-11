@@ -104,7 +104,6 @@ export default {
 <style lang="scss" scoped>
 div.my-jumbo{
     height: 90vh;
-    background-color: blue;
     background-image: url("../../assets/img/bg-9.jpg");
     background-size: cover;
     position: relative;
