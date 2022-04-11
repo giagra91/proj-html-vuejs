@@ -23,9 +23,7 @@
                             <p class="m-0 my-text">
                                 {{ element.text }}
                             </p>
-
                         </div>
-
                     </div>
                 </div>
     </div>
@@ -80,7 +78,6 @@ export default {
 <style lang="scss" scoped>
 div.logistics{
     min-height: 60vh;
-    border: 1px solid black;
     background-color: #eef4ed;
 }
 
