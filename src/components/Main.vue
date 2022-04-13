@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <main>
         <MyJumbo />
         <SocietyInfo />
         <MainServices />
@@ -7,7 +7,7 @@
         <Results />
         <Feedback />
         <SubsciptionForm />
-    </div>
+    </main>
 </template>
 
 <script>
@@ -35,7 +35,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style>
 
 
 </style>
